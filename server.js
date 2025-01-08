@@ -35,6 +35,3 @@ if (req.url === '/' && req.method === 'GET'){
 });
 
 
-server.listen(PORT, () => {
-    console.log(`Server running on localhost:${PORT}`);
-});
